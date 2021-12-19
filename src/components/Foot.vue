@@ -1,7 +1,7 @@
 <template>
   <Footer :class="isMobile ? 'mobile' : 'pc'">
     <div v-if="!isMobile" class="logo">
-      <a href="/"><img src="@/assets/icons/logo-text.svg" /></a>
+      <a href="/"><img src="@/assets/icons/logo-text.svg" width="120" height="33" /></a>
     </div>
     <div class="link-menu">
       <NuxtLink :to="linkUrl.home"><span>Home</span></NuxtLink>
@@ -27,7 +27,7 @@
       </a>
     </div>
     <div v-if="isMobile" class="logo">
-      <a href="/"><img src="@/assets/icons/logo-text.svg" /></a>
+      <a href="/"><img src="@/assets/icons/logo-text.svg" width="120" height="33" /></a>
     </div>
   </Footer>
 </template>
