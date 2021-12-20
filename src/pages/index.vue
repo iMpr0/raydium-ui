@@ -2,7 +2,7 @@
   <div class="page-container">
     <nav class="home-navbar">
       <NuxtLink to="/swap/">
-        <img src="../assets/icons/logo-text.svg" width="148" height="40" />
+        <img src="../assets/icons/logo-text-xmas.svg" width="148" height="40" />
       </NuxtLink>
 
       <NuxtLink to="/swap/">
@@ -14,8 +14,8 @@
       <div class="image-1" />
       <div class="grid-cover-content children-center">
         <div class="title">
-          An avenue for <br />
-          the evolution of <span class="defi-text">DeFi</span>
+          the <br />
+          <span class="defi-text">Decentralized Future</span>
         </div>
         <div class="subtitle">
           Light-speed <b>swaps</b>. Next-level <b>liquidity</b>. {{ '\n' }} Friction-less <b>yield</b>.
@@ -334,14 +334,14 @@
                 <div class="media-name">Discord</div>
               </a>
             </li>
-            <li>
+            <!-- <li>
               <a href="https://weibo.com/u/7573315825" class="link" rel="nofollow noopener noreferrer" target="_blank">
                 <div class="card icon-like forsted-glass teal">
                   <img src="../assets/icons/home-icon-weibo.svg" width="20" height="20" />
                 </div>
                 <div class="media-name">Weibo</div>
               </a>
-            </li>
+            </li> -->
             <li style="width: max-content">
               <Popover v-model="isPopupOpen" trigger="click" placement="right">
                 <template slot="content">
