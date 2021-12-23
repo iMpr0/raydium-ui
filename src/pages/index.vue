@@ -6,7 +6,7 @@
       </NuxtLink>
 
       <NuxtLink to="/swap/">
-        <div class="card button-like forsted-glass teal"><span class="font">Launch app</span></div>
+        <div class="card button-like forsted-glass teal"><span class="font">Launch App</span></div>
       </NuxtLink>
     </nav>
 
@@ -14,17 +14,17 @@
       <div class="image-1" />
       <div class="grid-cover-content children-center">
         <div class="title">
-          the <br />
-          <span class="defi-text">Decentralized Future</span>
+          <span class="defi-text">Decentralized Future</span><br />
+          Experience the whole DeFi World <br />in one place!
         </div>
         <div class="subtitle">
-          Light-speed <b>swaps</b>. Next-level <b>liquidity</b>. {{ '\n' }} Friction-less <b>yield</b>.
+          Very Fast & Cheap <b>Swap</b>. <b>DEX</b> with Orderbook. <b>Perpetual Futures</b> and more.
         </div>
 
         <div class="row-box-1">
           <NuxtLink to="/swap/">
             <div class="card button-like card-1">
-              <span class="font">Launch app</span><img class="icon" src="../assets/icons/button-icon-right.svg" />
+              <span class="font">Launch App</span><img class="icon" src="../assets/icons/button-icon-right.svg" />
             </div>
           </NuxtLink>
 
