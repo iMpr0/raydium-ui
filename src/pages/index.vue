@@ -18,7 +18,7 @@
           Experience the whole DeFi World <br />in one place!
         </div>
         <div class="subtitle">
-          Very Fast & Cheap <b>Swap</b>. <b>DEX</b> with Orderbook. <b>Perpetual Futures</b> and more.
+          Fast & Cheap <b>Swaps</b>. <b>DEX</b> with Orderbook. <b>Perpetual Futures</b> and more.
         </div>
 
         <div class="row-box-1">
