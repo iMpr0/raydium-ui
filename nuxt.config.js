@@ -84,7 +84,9 @@ export default {
     '@nuxtjs/google-gtag',
     '@nuxtjs/gtm',
     // '@nuxtjs/sentry'
-    '@/modules/alexa'
+    '@/modules/alexa',
+    '@nuxtjs/i18n',
+    '@/modules/mintbutton'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -120,6 +122,16 @@ export default {
   //   dsn: '',
   //   config: {}
   // },
+
+  i18n: {
+    locales: [
+      { code: 'en', iso: 'en-US', file: 'en.json', dir: 'auto' },
+      { code: 'zh', iso: 'zh-CN', file: 'zh.json', dir: 'auto' }
+    ],
+    defaultLocale: 'en',
+    strategy: 'no_prefix',
+    langDir: '~/locales/'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

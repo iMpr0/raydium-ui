@@ -1137,6 +1137,34 @@ export const TOKENS: Tokens = {
     mintAddress: 'cxxShYRVcepDudXhe7U62QHvw8uBJoKFifmzggGKVC2',
     decimals: 9,
     tags: ['raydium']
+  },
+  GST: {
+    symbol: 'GST',
+    name: 'GST',
+    mintAddress: 'AFbX8oGjGpmVFywbVouvhQSRmiW2aR1mohfahi4Y2AdB',
+    decimals: 9,
+    tags: ['raydium']
+  },
+  MBS: {
+    symbol: 'MBS',
+    name: 'MBS',
+    mintAddress: 'Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A',
+    decimals: 6,
+    tags: ['raydium']
+  },
+  PRISM: {
+    symbol: 'PRISM',
+    name: 'PRISM',
+    mintAddress: 'PRSMNsEPqhGVCH1TtWiJqPjJyh2cKrLostPZTNy1o5x',
+    decimals: 6,
+    tags: ['raydium']
+  },
+  MEAN: {
+    symbol: 'MEAN',
+    name: 'MEAN',
+    mintAddress: 'MEANeD3XDdUmNMsRGjASkSWdC8prLYsoRJ61pPeHctD',
+    decimals: 6,
+    tags: ['raydium']
   }
 }
 
@@ -2501,6 +2529,51 @@ export const LP_TOKENS: Tokens = {
 
     mintAddress: 'EN43tp8xdkcM8RYSJ4msFHMPTJRXKhUteVYBDJLwTvr3',
     decimals: TOKENS.REAL.decimals
+  },
+  'FRKT-USDC-V4': {
+    symbol: 'FRKT-USDC',
+    name: 'FRKT-USDC LP',
+    coin: { ...TOKENS.FRKT },
+    pc: { ...TOKENS.USDC },
+
+    mintAddress: '7MgzqVTGeA4wENme81QPTrPy45NJMKVL9XGwxmNT87cG',
+    decimals: TOKENS.FRKT.decimals
+  },
+  'MBS-USDC-V4': {
+    symbol: 'MBS-USDC',
+    name: 'MBS-USDC LP',
+    coin: { ...TOKENS.MBS },
+    pc: { ...TOKENS.USDC },
+
+    mintAddress: 'BAgSWaPZpsQKyZJdvB5KyvmCNj6hzczzentt5FhDCVHb',
+    decimals: TOKENS.MBS.decimals
+  },
+  'PRISM-USDC-V4': {
+    symbol: 'PRISM-USDC',
+    name: 'PRISM-USDC LP',
+    coin: { ...TOKENS.PRISM },
+    pc: { ...TOKENS.USDC },
+
+    mintAddress: '3baYkTcudvSFMe25UpZcBfdp4FA5kL2E4pfaeJ8AiYJB',
+    decimals: TOKENS.PRISM.decimals
+  },
+  'CHICKS-USDC-V4': {
+    symbol: 'CHICKS-USDC',
+    name: 'CHICKS-USDC LP',
+    coin: { ...TOKENS.CHICKS },
+    pc: { ...TOKENS.USDC },
+
+    mintAddress: 'CPzmcw81a6PDasSXhVLfDRKuTJXZPUqocS9VFf5zCFhs',
+    decimals: TOKENS.CHICKS.decimals
+  },
+  'MEAN-RAY-V4': {
+    symbol: 'MEAN-RAY',
+    name: 'MEAN-RAY LP',
+    coin: { ...TOKENS.MEAN },
+    pc: { ...TOKENS.RAY },
+
+    mintAddress: 'H9wUyrxpAErmdNVPitpHSXgwoomoh91ggJKPWtQQoCn1',
+    decimals: TOKENS.MEAN.decimals
   }
 }
 
@@ -2536,7 +2609,11 @@ function addUserLocalCoinMint() {
 }
 
 // fake
-const BLACK_LIST = ['3pX59cis3ZXnX6ZExPoUQjpvJVspmj4YavtUmpTpkB33']
+const BLACK_LIST = [
+  '3pX59cis3ZXnX6ZExPoUQjpvJVspmj4YavtUmpTpkB33',
+  'EUjf7vzZsWjR3eGo5jEASxYyqt7ALqdmE87bDbURUWWV',
+  '2bXBmaYJwJfj5Cu8TDqLLrW1b9L7dK6sLgKoBBYRBzTH'
+]
 
 function blockBlackList(tokens: { address: string }[]) {
   return tokens.filter((item) => !BLACK_LIST.includes(item.address))
