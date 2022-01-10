@@ -223,7 +223,7 @@
           </ul>
         </div>
 
-        <div class="group protocol">
+        <!-- <div class="group protocol">
           <div class="title-text">
             <div class="text">PROTOCOL</div>
             <div class="line" />
@@ -266,7 +266,7 @@
               >
             </li>
           </ul>
-        </div>
+        </div> -->
 
         <div class="group support">
           <div class="title-text">
@@ -303,7 +303,7 @@
           <ul class="links">
             <li>
               <a
-                href="https://twitter.com/RaydiumProtocol"
+                href="https://twitter.com/defutu_io"
                 class="link"
                 rel="nofollow noopener noreferrer"
                 target="_blank"
@@ -314,17 +314,18 @@
                 <div class="media-name">Twitter</div>
               </a>
             </li>
-            <li>
+            <!-- <li>
               <a href="https://raydium.medium.com/" class="link" rel="nofollow noopener noreferrer" target="_blank">
                 <div class="card icon-like forsted-glass teal">
                   <img src="../assets/icons/home-icon-medium.svg" width="18" height="18" />
                 </div>
                 <div class="media-name">Medium</div>
               </a>
-            </li>
+            </li> -->
+            
             <li>
               <a
-                href="https://discord.com/invite/6EvFwvCfpx"
+                href="https://discord.gg/ew6cWttU"
                 class="link"
                 rel="nofollow noopener noreferrer"
                 target="_blank"
@@ -335,6 +336,7 @@
                 <div class="media-name">Discord</div>
               </a>
             </li>
+
             <!-- <li>
               <a href="https://weibo.com/u/7573315825" class="link" rel="nofollow noopener noreferrer" target="_blank">
                 <div class="card icon-like forsted-glass teal">
@@ -343,7 +345,8 @@
                 <div class="media-name">Weibo</div>
               </a>
             </li> -->
-            <li style="width: max-content">
+
+            <!-- <li style="width: max-content">
               <Popover v-model="isPopupOpen" trigger="click" placement="right">
                 <template slot="content">
                   <ul class="pop-links">
@@ -408,7 +411,7 @@
                   />
                 </div>
               </Popover>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
