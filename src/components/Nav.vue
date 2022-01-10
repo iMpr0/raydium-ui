@@ -41,20 +41,20 @@ const SubMenu = Menu.SubMenu
 })
 export default class Nav extends Vue {
   navs = {
-    trading: true,
+    // trading: true,
     swap: false,
-    liquidity: false,
-    pools: false,
-    farms: false,
-    staking: false,
-    acceleRaytor: false,
-    dropZone: true,
-    NFTs: {
-      'browse-NFTs': true,
-      'explore-Collections': true
-    },
-    migrate: false
-    // info: false
+    // liquidity: false,
+    // pools: false,
+    // farms: false,
+    // staking: false,
+    // acceleRaytor: false,
+    // dropZone: true,
+    // NFTs: {
+    //   'browse-NFTs': true,
+    //   'explore-Collections': true
+    // },
+    // migrate: false
+    info: false
   }
 
   get isMobile() {

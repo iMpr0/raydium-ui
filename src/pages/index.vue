@@ -6,8 +6,8 @@
         <img src="../assets/icons/logo-text-xmas.svg" width="148" height="40" />
       </NuxtLink>
 
-      <NuxtLink to="/swap/">
-        <div class="card button-like forsted-glass teal"><span class="font">Launch App</span></div>
+      <NuxtLink to="/#">
+        <div class="card button-like forsted-glass teal"><span class="font">White Paper</span></div>
       </NuxtLink>
     </nav>
 
@@ -36,7 +36,7 @@
           </a>
         </div>
 
-        <div class="row-box-2">
+        <!-- <div class="row-box-2">
           <div class="card forsted-glass smoke">
             <div class="card-title">TOTAL VALUE LOCKED</div>
             <div class="value">
@@ -64,7 +64,7 @@
               </span>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <img src="../assets/background/index_slogan_build_on.svg" class="solana-logo" />
       </div>
