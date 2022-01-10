@@ -337,6 +337,20 @@
               </a>
             </li>
 
+            <li>
+              <a
+                href="https://youtube.com/channel/UC_uLqsyk3W_ALAIp8CcGPXA"
+                class="link"
+                rel="nofollow noopener noreferrer"
+                target="_blank"
+              >
+                <div class="card icon-like forsted-glass teal">
+                  <img src="../assets/icons/youtube.svg" width="20" height="20" />
+                </div>
+                <div class="media-name">Youtube</div>
+              </a>
+            </li>
+
             <!-- <li>
               <a href="https://weibo.com/u/7573315825" class="link" rel="nofollow noopener noreferrer" target="_blank">
                 <div class="card icon-like forsted-glass teal">
@@ -611,7 +625,7 @@ export default class Index extends Vue {
   top: 0;
   left: 0;
   right: 0;
-  margin: 128px 165px 50px; /* banner will change space of this */
+  margin: 50px 165px 50px; /* banner will change space of this */
   justify-content: space-between;
   z-index: 1;
 }
