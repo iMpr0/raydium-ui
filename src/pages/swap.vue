@@ -657,7 +657,7 @@ import { isOfficalMarket, LiquidityPoolInfo, LIQUIDITY_POOLS } from '@/utils/poo
 import { RouterInfo, RouterInfoItem } from '@/types/api'
 import { getBigNumber } from '@/utils/layouts'
 
-const RAY = getTokenBySymbol('RAY')
+const RAY = getTokenBySymbol('SOL')
 
 export default Vue.extend({
   components: {
@@ -774,7 +774,7 @@ export default Vue.extend({
   },
 
   head: {
-    title: 'Raydium Swap'
+    title: 'DeFutu Swap'
   },
 
   computed: {

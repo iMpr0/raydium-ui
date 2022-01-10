@@ -3,7 +3,7 @@
     <HeadChip />
     <nav class="home-navbar">
       <NuxtLink to="/swap/">
-        <img src="../assets/icons/logo-text-xmas.svg" width="148" height="40" />
+        <img src="../assets/icons/logo-text.svg" width="148" height="40" />
       </NuxtLink>
 
       <NuxtLink to="/#">
@@ -19,7 +19,7 @@
           Experience the whole DeFi World <br />in one place!
         </div>
         <div class="subtitle">
-          Fast & Cheap <b>Swaps</b>. <b>DEX</b> with Orderbook. <b>Perpetual Futures</b> and more.
+          Fast & Cheap <b>Swaps</b>. Orderbook <b>DEX</b>. <b>Perpetual Futures</b> and more.
         </div>
 
         <div class="row-box-1">
@@ -421,13 +421,13 @@
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
 import { Icon, Popover } from 'ant-design-vue'
-import HeadChip from '@/components/HeadChip.vue'
+// import HeadChip from '@/components/HeadChip.vue'
 
 @Component({
   components: {
     Icon,
-    Popover,
-    HeadChip
+    Popover
+    // HeadChip
   },
   layout: 'home',
 
