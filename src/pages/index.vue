@@ -1,6 +1,6 @@
 <template>
   <div class="page-container">
-    <HeadChip />
+    <!-- <HeadChip /> -->
     <nav class="home-navbar">
       <NuxtLink to="/swap/">
         <img src="../assets/icons/logo-text.svg" width="148" height="40" />
@@ -322,7 +322,7 @@
                 <div class="media-name">Medium</div>
               </a>
             </li> -->
-            
+
             <li>
               <a
                 href="https://discord.gg/ew6cWttU"
@@ -424,13 +424,13 @@
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
 import { Icon, Popover } from 'ant-design-vue'
-// import HeadChip from '@/components/HeadChip.vue'
+import HeadChip from '@/components/HeadChip.vue'
 
 @Component({
   components: {
     Icon,
-    Popover
-    // HeadChip
+    Popover,
+    HeadChip
   },
   layout: 'home',
 
