@@ -637,7 +637,7 @@ export default class Index extends Vue {
   position: relative;
 }
 .section-app-face .image-1 {
-  background-image: url('../assets/background/index_background.svg');
+  background-image: url('../assets/background/index_background.png');
   background-repeat: no-repeat;
   height: 100%;
   width: 744px;
